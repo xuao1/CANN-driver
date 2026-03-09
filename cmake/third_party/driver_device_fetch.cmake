@@ -9,7 +9,7 @@
 # ------------------------------------------------------------------------------------------------------------
 
 set(DRIVER_DEVICE_NAME "driver-device")
-set(DRIVER_DEVICE_SERVER "https://ascend.devcloud.huaweicloud.com/artifactory/cann-run-release/dependency")
+set(DRIVER_DEVICE_SERVER "https://ascend.devcloud.huaweicloud.com/artifactory/cann-run-mirror/dependency")
 set(DRIVER_DEVICE_VERSION "8.5.0-beta.1")
 set(DRIVER_DEVICE_DATE "20260127000324761")
 

@@ -1274,6 +1274,7 @@ int drv_ascend_intf_ioctl_open_cmd(
     unsigned int cmd,
     unsigned long arg)
 {
+    // TODO 4
     int ret;
     struct davinci_intf_open_arg module_para = {{0}};
     struct davinci_intf_private_stru *file_private = NULL;
@@ -1411,6 +1412,7 @@ STATIC long drv_ascend_intf_ioctl_local(struct file *filep,
     unsigned int cmd,
     unsigned long arg)
 {
+    // TODO 3
     if (_KA_IOC_NR(cmd) >= DAVINCI_INTF_IOCTL_CMD_MAX_NR) {
         log_intf_err("invalid cmd,out of range. (cmd=%u)\n", _KA_IOC_NR(cmd));
         return -EINVAL;
@@ -1426,6 +1428,7 @@ STATIC long drv_ascend_intf_ioctl_local(struct file *filep,
 
 STATIC long drv_ascend_intf_ioctl(struct file *filep, unsigned int cmd, unsigned long arg)
 {
+    // TODO
     struct davinci_intf_private_stru *file_private = NULL;
     long ret;
     ASSERT_RET((filep != NULL), (-EFAULT));
@@ -1437,7 +1440,7 @@ STATIC long drv_ascend_intf_ioctl(struct file *filep, unsigned int cmd, unsigned
     }
 
     switch (_KA_IOC_TYPE(cmd)) {
-        case DAVINCI_INTF_IOC_MAGIC:
+        case DAVINCI_INTF_IOC_MAGIC: // 5A
             return drv_ascend_intf_ioctl_local(filep, cmd, arg);
         default:
             if (file_private->fops.unlocked_ioctl == NULL) {
@@ -1520,6 +1523,7 @@ STATIC unsigned int drv_ascend_intf_poll(
 }
 
 static const struct file_operations g_davinci_intf_fops = {
+    // TODO
     .owner = KA_THIS_MODULE,
     .open = drv_ascend_intf_open,
     .release = drv_ascend_intf_release,
