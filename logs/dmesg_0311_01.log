@@ -1,0 +1,111 @@
+[ 4134.371335] fake_ascend: [SVM_HEAP] Update Heap Request
+[ 4134.371442] fake_ascend: [SVM_HEAP] Update Heap Request
+[ 4134.371641] fake_ascend: [SVM_HEAP] Update Heap Request
+[ 4134.382607] fake_ascend: [SVM_HEAP] Update Heap Request
+[ 4134.383229] fake_ascend: [SVM_ALLOC] Request: size=2097152
+[ 4134.383239] ==========> [DEBUG] chunk_cnt=512, va=0x12c000000000, size=2097152
+               , heap type=4025417731
+[ 4134.383267] fake_ascend: [SVM_ADVISE] Setting Memory Attributes
+[ 4134.384591] fake_ascend: [SVM_HEAP] Update Heap Request
+[ 4134.384643] fake_ascend: [SVM_ALLOC] Request: size=2097152
+[ 4134.384647] ==========> [DEBUG] chunk_cnt=1, va=0x12c040000000, size=2097152
+               , heap type=4025417730
+[ 4134.384649] fake_ascend: [SVM_ADVISE] Setting Memory Attributes
+[ 4134.384756] fake_ascend: [SVM_ALLOC] Request: size=8388608
+[ 4134.384759] ==========> [DEBUG] chunk_cnt=4, va=0x12c040200000, size=8388608
+               , heap type=4025417730
+[ 4134.384761] fake_ascend: [SVM_ADVISE] Setting Memory Attributes
+[ 4134.384828] fake_ascend: [SVM_HEAP] Update Heap Request
+[ 4134.384857] fake_ascend: [SVM_ALLOC] Request: size=8388608
+[ 4134.384860] ==========> [DEBUG] chunk_cnt=4, va=0x12c080000000, size=8388608
+               , heap type=4025417729
+[ 4134.384862] fake_ascend: [SVM_ADVISE] Setting Memory Attributes
+[ 4134.394794] fake_ascend: [SVM_ALLOC] Request: size=2097152
+[ 4134.394801] ==========> [DEBUG] chunk_cnt=1, va=0x12c040a00000, size=2097152
+               , heap type=4025417730
+[ 4134.394804] fake_ascend: [SVM_ADVISE] Setting Memory Attributes
+[ 4134.396336] fake_ascend: [SVM_ALLOC] Request: size=4194304
+[ 4134.396341] ==========> [DEBUG] chunk_cnt=2, va=0x12c040c00000, size=4194304
+               , heap type=4025417730
+[ 4134.396343] fake_ascend: [SVM_ADVISE] Setting Memory Attributes
+[ 4134.396387] fake_ascend: [SVM_ALLOC] Request: size=4194304
+[ 4134.396391] ==========> [DEBUG] chunk_cnt=2, va=0x12c080800000, size=4194304
+               , heap type=4025417729
+[ 4134.396393] fake_ascend: [SVM_ADVISE] Setting Memory Attributes
+[ 4134.397300] fake_ascend: [SVM_HEAP] Update Heap Request
+[ 4134.397894] fake_ascend: [SVM_ALLOC] Request: size=2097152
+[ 4134.397898] ==========> [DEBUG] chunk_cnt=512, va=0x12c0c0000000, size=2097152
+               , heap type=4025417731
+[ 4134.397924] fake_ascend: [SVM_ADVISE] Setting Memory Attributes
+[ 4134.398487] fake_ascend: [SVM_ALLOC] Request: size=2097152
+[ 4134.398512] ==========> [DEBUG] chunk_cnt=1, va=0x124000000000, size=2097152
+               , heap type=4025417730
+[ 4134.398516] fake_ascend: [SVM_ADVISE] Setting Memory Attributes
+[ 4134.403915] fake_ascend: [SVM_HEAP] Update Heap Request
+[ 4134.403965] fake_ascend: [SVM_ALLOC] Request: size=2097152
+[ 4134.403970] ==========> [DEBUG] chunk_cnt=1, va=0x12c100000000, size=2097152
+               , heap type=4025417730
+[ 4134.403973] fake_ascend: [SVM_ADVISE] Setting Memory Attributes
+[ 4134.405246] fake_ascend: [SVM_ALLOC] Request: size=2097152
+[ 4134.405259] ==========> [DEBUG] chunk_cnt=1, va=0x12c041000000, size=2097152
+               , heap type=4025417730
+[ 4134.405264] fake_ascend: [SVM_ADVISE] Setting Memory Attributes
+[ 4164.412729] fake_ascend: [SVM_ALLOC] Request: size=2097152
+[ 4164.412748] ==========> [DEBUG] chunk_cnt=1, va=0x12c041200000, size=2097152
+               , heap type=4025417730
+[ 4164.412753] fake_ascend: [SVM_ADVISE] Setting Memory Attributes
+[ 4224.412454] fake_ascend: [SVM_ALLOC] Request: size=4194304
+[ 4224.412468] ==========> [DEBUG] chunk_cnt=2, va=0x12c041400000, size=4194304
+               , heap type=4025417730
+[ 4224.412472] fake_ascend: [SVM_ADVISE] Setting Memory Attributes
+[ 4284.412121] fake_ascend: [SVM_ALLOC] Request: size=69206016
+[ 4284.412139] ==========> [DEBUG] chunk_cnt=33, va=0x12c041800000, size=69206016
+               , heap type=4025417730
+[ 4284.412145] fake_ascend: [SVM_ADVISE] Setting Memory Attributes
+[ 4314.412019] fake_ascend: [SVM_FREE] Request: VA=0x12c041800000
+[ 4344.412482] fake_ascend: [SVM_HEAP] Update Heap Request
+[ 4344.412568] fake_ascend: [SVM_ALLOC] Request: size=1073741856
+[ 4344.412578] ==========> [DEBUG] chunk_cnt=513, va=0x12c140000000, size=1073741856
+               , heap type=4025417730
+[ 4344.412606] fake_ascend: [SVM_ADVISE] Setting Memory Attributes
+[ 4374.413061] fake_ascend: [SVM_FREE] Request: VA=0x12c140000000
+[ 4374.419355] fake_ascend: [SVM_HEAP] Update Heap Request
+[ 4404.419627] fake_ascend: [SVM_HEAP] Update Heap Request
+[ 4404.419729] fake_ascend: [SVM_ALLOC] Request: size=2147483680
+[ 4404.419739] ==========> [DEBUG] chunk_cnt=1025, va=0x12c140000000, size=2147483680
+               , heap type=4025417730
+[ 4404.419791] fake_ascend: [SVM_ADVISE] Setting Memory Attributes
+[ 4434.476761] fake_ascend: [SVM_FREE] Request: VA=0x12c140000000
+[ 4434.488583] fake_ascend: [SVM_HEAP] Update Heap Request
+[ 4464.488900] fake_ascend: [SVM_HEAP] Update Heap Request
+[ 4464.489001] fake_ascend: [SVM_ALLOC] Request: size=17179869216
+[ 4464.489007] ==========> [DEBUG] chunk_cnt=8193, va=0x12c140000000, size=17179869216
+               , heap type=4025417730
+[ 4464.489393] fake_ascend: [SVM_ADVISE] Setting Memory Attributes
+[ 4495.045172] fake_ascend: [SVM_FREE] Request: VA=0x12c140000000
+[ 4495.140752] fake_ascend: [SVM_HEAP] Update Heap Request
+[ 4525.142908] fake_ascend: [SVM_HEAP] Update Heap Request
+[ 4525.143066] fake_ascend: [SVM_ALLOC] Request: size=32212254752
+[ 4525.143073] ==========> [DEBUG] chunk_cnt=15361, va=0x12c140000000, size=32212254752
+               , heap type=4025417730
+[ 4525.143798] fake_ascend: [SVM_ADVISE] Setting Memory Attributes
+[ 4525.894424] fake_ascend: [SVM_FREE] Request: VA=0x12c140000000
+[ 4525.896039] fake_ascend: [SVM_HEAP] Update Heap Request
+[ 4527.230060] fake_ascend: [SVM_HEAP] Update Heap Request
+[ 4527.247394] fake_ascend: [SVM_ALLOC] Request: size=32212254752
+[ 4527.247409] ==========> [DEBUG] chunk_cnt=7864321, va=0x12c140000000, size=32212254752
+               , heap type=4025417731
+[ 4527.640945] fake_ascend: [SVM_ADVISE] Setting Memory Attributes
+[ 4530.332424] fake_ascend: [SVM_FREE] Request: VA=0x12c140000000
+[ 4531.141438] fake_ascend: [SVM_HEAP] Update Heap Request
+[ 4534.289244] fake_ascend: [SVM_HEAP] Update Heap Request
+[ 4534.290850] fake_ascend: [SVM_HEAP] Update Heap Request
+[ 4534.291239] fake_ascend: [SVM_HEAP] Update Heap Request
+[ 4534.291539] fake_ascend: [SVM_HEAP] Update Heap Request
+[ 4534.291639] fake_ascend: [SVM_HEAP] Update Heap Request
+[ 4534.295308] fake_ascend: [SVM_HEAP] Update Heap Request
+[ 4534.309509] fake_ascend: [SVM_HEAP] Update Heap Request
+[ 4535.479787] [ascend] [ERROR] [uda] [uda_devid_to_phy_devid 654] <npu-smi:81921:81921:7> Trans failed. (devid=0)
+[ 4535.479799] [ascend] [ERROR] [uda] [uda_devid_to_phy_devid 654] <npu-smi:81921:81921:7> Trans failed. (devid=0)
+[ 4535.510646] [ascend] [ERROR] [uda] [uda_devid_to_phy_devid 654] <npu-smi:81940:81940:3> Trans failed. (devid=0)
+[ 4535.510662] [ascend] [ERROR] [uda] [uda_devid_to_phy_devid 654] <npu-smi:81940:81940:3> Trans failed. (devid=0)

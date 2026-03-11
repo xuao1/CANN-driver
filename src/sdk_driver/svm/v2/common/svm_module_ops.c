@@ -424,8 +424,12 @@ STATIC bool devmm_ioctl_cmd_is_file_arg(u32 cmd)
 STATIC int devmm_dispatch_ioctl(ka_file_t *file, u32 cmd, struct devmm_ioctl_arg *buffer)
 {
     if (devmm_ioctl_cmd_is_file_arg(cmd) == true) {
+        // pr_info("==========> [DEBUG] In devmm_dispatch_ioctl, cmd=0x%x, cmd_id=0x%x, dispatch to file_arg handler <==========\n",
+        //     cmd, _KA_IOC_NR(cmd));
         return devmm_dispatch_ioctl_for_file_arg(file, cmd, buffer);
     } else {
+        // pr_info("==========> [DEBUG] In devmm_dispatch_ioctl, cmd=0x%x, cmd_id=0x%x, dispatch to normal handler <==========\n",
+        //     cmd, _KA_IOC_NR(cmd));
         return devmm_dispatch_ioctl_normal(file, cmd, buffer);
     }
 }
@@ -435,6 +439,8 @@ STATIC long devmm_svm_ioctl(ka_file_t *file, u32 cmd, unsigned long arg)
     struct devmm_ioctl_arg buffer = {{0}};
     u32 cmd_id = _KA_IOC_NR(cmd);
     int ret;
+
+    // pr_info("==========> [DEBUG] In svm_module_ops.c devmm_svm_ioctl, cmd=0x%x, cmd_id=0x%x <==========\n", cmd, cmd_id);
 
     if ((file == NULL) || (ka_fs_get_file_private_data(file) == NULL) || (arg == 0)) {
         devmm_drv_err("File is NULL, check svm init. (cmd=0x%x; _IOC_NR(cmd)=0x%x)\n", cmd, _KA_IOC_NR(cmd));

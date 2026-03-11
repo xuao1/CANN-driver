@@ -1,0 +1,252 @@
+[ 3521.658167] In davinci_intf_init.c, case DAVINCI_INTF_IOC_MAGIC, cmd=23040, module_name=uninit
+[ 3521.658304] In davinci_intf_init.c, case DAVINCI_INTF_IOC_MAGIC, cmd=23040, module_name=uninit
+[ 3521.658400] In davinci_intf_init.c, case DAVINCI_INTF_IOC_MAGIC, cmd=23040, module_name=uninit
+[ 3521.658405] In davinci_intf_init.c, default case, cmd=2148816128, module_name=uda
+[ 3521.658450] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: uda_ioctl+0x0/0xf0 [asdrv_pbl], cmd=2148816128, module_name=uda
+[ 3521.658464] In davinci_intf_init.c, default case, cmd=1074025729, module_name=uda
+[ 3521.658481] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: uda_ioctl+0x0/0xf0 [asdrv_pbl], cmd=1074025729, module_name=uda
+[ 3521.658510] In davinci_intf_init.c, default case, cmd=3222295810, module_name=uda
+[ 3521.658524] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: uda_ioctl+0x0/0xf0 [asdrv_pbl], cmd=3222295810, module_name=uda
+[ 3521.658745] In davinci_intf_init.c, default case, cmd=19820, module_name=DEVMNG
+[ 3521.658790] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19820, module_name=DEVMNG
+[ 3521.658828] In davinci_intf_init.c, case DAVINCI_INTF_IOC_MAGIC, cmd=23040, module_name=uninit
+[ 3521.659056] In davinci_intf_init.c, default case, cmd=22017, module_name=URD
+[ 3521.659075] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=22017, module_name=URD
+[ 3521.659277] In davinci_intf_init.c, default case, cmd=19866, module_name=DEVMNG
+[ 3521.659296] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19866, module_name=DEVMNG
+[ 3521.698722] In davinci_intf_init.c, default case, cmd=19715, module_name=DEVMNG
+[ 3521.698759] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19715, module_name=DEVMNG
+[ 3521.699225] In davinci_intf_init.c, default case, cmd=19715, module_name=DEVMNG
+[ 3521.699246] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19715, module_name=DEVMNG
+[ 3521.699252] In davinci_intf_init.c, default case, cmd=19732, module_name=DEVMNG
+[ 3521.699267] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19732, module_name=DEVMNG
+[ 3521.699286] In davinci_intf_init.c, default case, cmd=22017, module_name=URD
+[ 3521.699311] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=22017, module_name=URD
+[ 3521.699348] In davinci_intf_init.c, default case, cmd=19715, module_name=DEVMNG
+[ 3521.699364] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19715, module_name=DEVMNG
+[ 3521.699369] In davinci_intf_init.c, default case, cmd=19875, module_name=DEVMNG
+[ 3521.699382] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19875, module_name=DEVMNG
+[ 3521.699390] In davinci_intf_init.c, default case, cmd=22017, module_name=URD
+[ 3521.699406] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=22017, module_name=URD
+[ 3521.699414] In davinci_intf_init.c, default case, cmd=22017, module_name=URD
+[ 3521.699428] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=22017, module_name=URD
+[ 3521.699438] In davinci_intf_init.c, default case, cmd=22017, module_name=URD
+[ 3521.699452] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=22017, module_name=URD
+[ 3521.699475] In davinci_intf_init.c, default case, cmd=22017, module_name=URD
+[ 3521.699488] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=22017, module_name=URD
+[ 3521.699496] In davinci_intf_init.c, default case, cmd=22017, module_name=URD
+[ 3521.699510] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=22017, module_name=URD
+[ 3521.699516] In davinci_intf_init.c, default case, cmd=22017, module_name=URD
+[ 3521.699529] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=22017, module_name=URD
+[ 3521.699534] In davinci_intf_init.c, default case, cmd=22017, module_name=URD
+[ 3521.699547] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=22017, module_name=URD
+[ 3521.699592] In davinci_intf_init.c, default case, cmd=22017, module_name=URD
+[ 3521.699605] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=22017, module_name=URD
+[ 3521.699615] In davinci_intf_init.c, default case, cmd=17693, module_name=URD
+[ 3521.699628] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=17693, module_name=URD
+[ 3521.699641] In davinci_intf_init.c, default case, cmd=22017, module_name=URD
+[ 3521.699655] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=22017, module_name=URD
+[ 3521.699673] In davinci_intf_init.c, default case, cmd=19715, module_name=DEVMNG
+[ 3521.699688] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19715, module_name=DEVMNG
+[ 3521.699691] In davinci_intf_init.c, default case, cmd=19875, module_name=DEVMNG
+[ 3521.699706] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19875, module_name=DEVMNG
+[ 3521.699710] In davinci_intf_init.c, default case, cmd=22017, module_name=URD
+[ 3521.699724] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=22017, module_name=URD
+[ 3521.699728] In davinci_intf_init.c, default case, cmd=22017, module_name=URD
+[ 3521.699742] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=22017, module_name=URD
+[ 3521.699746] In davinci_intf_init.c, default case, cmd=22017, module_name=URD
+[ 3521.699759] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=22017, module_name=URD
+[ 3521.699774] In davinci_intf_init.c, default case, cmd=22017, module_name=URD
+[ 3521.699788] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=22017, module_name=URD
+[ 3521.699792] In davinci_intf_init.c, default case, cmd=22017, module_name=URD
+[ 3521.699804] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=22017, module_name=URD
+[ 3521.699808] In davinci_intf_init.c, default case, cmd=22017, module_name=URD
+[ 3521.699821] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=22017, module_name=URD
+[ 3521.699824] In davinci_intf_init.c, default case, cmd=22017, module_name=URD
+[ 3521.699837] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=22017, module_name=URD
+[ 3521.699842] In davinci_intf_init.c, default case, cmd=19732, module_name=DEVMNG
+[ 3521.699856] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19732, module_name=DEVMNG
+[ 3521.699862] In davinci_intf_init.c, default case, cmd=22017, module_name=URD
+[ 3521.699876] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=22017, module_name=URD
+[ 3521.752600] In davinci_intf_init.c, default case, cmd=17693, module_name=URD
+[ 3521.752626] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=17693, module_name=URD
+[ 3521.752661] In davinci_intf_init.c, default case, cmd=19729, module_name=DEVMNG
+[ 3521.752683] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19729, module_name=DEVMNG
+[ 3521.752688] In davinci_intf_init.c, default case, cmd=19730, module_name=DEVMNG
+[ 3521.752703] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19730, module_name=DEVMNG
+[ 3521.752709] In davinci_intf_init.c, default case, cmd=19771, module_name=DEVMNG
+[ 3521.752724] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19771, module_name=DEVMNG
+[ 3521.752824] In davinci_intf_init.c, default case, cmd=19820, module_name=DEVMNG
+[ 3521.752839] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19820, module_name=DEVMNG
+[ 3521.752864] In davinci_intf_init.c, default case, cmd=19715, module_name=DEVMNG
+[ 3521.752878] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19715, module_name=DEVMNG
+[ 3521.752882] In davinci_intf_init.c, default case, cmd=19732, module_name=DEVMNG
+[ 3521.752895] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19732, module_name=DEVMNG
+[ 3521.753280] In davinci_intf_init.c, default case, cmd=19875, module_name=DEVMNG
+[ 3521.753301] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19875, module_name=DEVMNG
+[ 3521.761840] In davinci_intf_init.c, default case, cmd=17693, module_name=URD
+[ 3521.761862] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=17693, module_name=URD
+[ 3521.761882] In davinci_intf_init.c, default case, cmd=19729, module_name=DEVMNG
+[ 3521.761903] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19729, module_name=DEVMNG
+[ 3521.761907] In davinci_intf_init.c, default case, cmd=19730, module_name=DEVMNG
+[ 3521.761922] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19730, module_name=DEVMNG
+[ 3521.761927] In davinci_intf_init.c, default case, cmd=19771, module_name=DEVMNG
+[ 3521.761941] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19771, module_name=DEVMNG
+[ 3521.762008] In davinci_intf_init.c, default case, cmd=19820, module_name=DEVMNG
+[ 3521.762025] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19820, module_name=DEVMNG
+[ 3521.762033] In davinci_intf_init.c, default case, cmd=19715, module_name=DEVMNG
+[ 3521.762048] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19715, module_name=DEVMNG
+[ 3521.762051] In davinci_intf_init.c, default case, cmd=19732, module_name=DEVMNG
+[ 3521.762065] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19732, module_name=DEVMNG
+[ 3521.762084] In davinci_intf_init.c, default case, cmd=19875, module_name=DEVMNG
+[ 3521.762099] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19875, module_name=DEVMNG
+[ 3521.770835] In davinci_intf_init.c, default case, cmd=17693, module_name=URD
+[ 3521.770900] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=17693, module_name=URD
+[ 3521.770941] In davinci_intf_init.c, default case, cmd=19729, module_name=DEVMNG
+[ 3521.770989] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19729, module_name=DEVMNG
+[ 3521.770997] In davinci_intf_init.c, default case, cmd=19730, module_name=DEVMNG
+[ 3521.771012] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19730, module_name=DEVMNG
+[ 3521.771020] In davinci_intf_init.c, default case, cmd=19771, module_name=DEVMNG
+[ 3521.771034] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19771, module_name=DEVMNG
+[ 3521.771160] In davinci_intf_init.c, default case, cmd=19820, module_name=DEVMNG
+[ 3521.771177] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19820, module_name=DEVMNG
+[ 3521.771192] In davinci_intf_init.c, default case, cmd=19715, module_name=DEVMNG
+[ 3521.771206] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19715, module_name=DEVMNG
+[ 3521.771212] In davinci_intf_init.c, default case, cmd=19732, module_name=DEVMNG
+[ 3521.771226] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19732, module_name=DEVMNG
+[ 3521.771274] In davinci_intf_init.c, default case, cmd=19875, module_name=DEVMNG
+[ 3521.771288] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19875, module_name=DEVMNG
+[ 3521.779647] In davinci_intf_init.c, default case, cmd=19715, module_name=DEVMNG
+[ 3521.779669] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19715, module_name=DEVMNG
+[ 3521.779674] In davinci_intf_init.c, default case, cmd=19715, module_name=DEVMNG
+[ 3521.779690] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19715, module_name=DEVMNG
+[ 3521.779694] In davinci_intf_init.c, default case, cmd=19732, module_name=DEVMNG
+[ 3521.779708] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19732, module_name=DEVMNG
+[ 3521.779719] In davinci_intf_init.c, default case, cmd=22017, module_name=URD
+[ 3521.779739] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=22017, module_name=URD
+[ 3521.779756] In davinci_intf_init.c, default case, cmd=19715, module_name=DEVMNG
+[ 3521.779771] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19715, module_name=DEVMNG
+[ 3521.779775] In davinci_intf_init.c, default case, cmd=19875, module_name=DEVMNG
+[ 3521.779789] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19875, module_name=DEVMNG
+[ 3521.779795] In davinci_intf_init.c, default case, cmd=22017, module_name=URD
+[ 3521.779811] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=22017, module_name=URD
+[ 3521.779820] In davinci_intf_init.c, default case, cmd=22017, module_name=URD
+[ 3521.779834] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=22017, module_name=URD
+[ 3521.779844] In davinci_intf_init.c, default case, cmd=22017, module_name=URD
+[ 3521.779858] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=22017, module_name=URD
+[ 3521.779904] In davinci_intf_init.c, default case, cmd=22017, module_name=URD
+[ 3521.779922] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=22017, module_name=URD
+[ 3521.779938] In davinci_intf_init.c, default case, cmd=22017, module_name=URD
+[ 3521.779953] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=22017, module_name=URD
+[ 3521.779961] In davinci_intf_init.c, default case, cmd=22017, module_name=URD
+[ 3521.779975] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=22017, module_name=URD
+[ 3521.779981] In davinci_intf_init.c, default case, cmd=22017, module_name=URD
+[ 3521.779996] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=22017, module_name=URD
+[ 3521.780001] In davinci_intf_init.c, default case, cmd=22017, module_name=URD
+[ 3521.780014] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=22017, module_name=URD
+[ 3521.780797] In davinci_intf_init.c, default case, cmd=19715, module_name=DEVMNG
+[ 3521.780817] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19715, module_name=DEVMNG
+[ 3521.780822] In davinci_intf_init.c, default case, cmd=19875, module_name=DEVMNG
+[ 3521.780837] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19875, module_name=DEVMNG
+[ 3521.780843] In davinci_intf_init.c, default case, cmd=22017, module_name=URD
+[ 3521.780861] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=22017, module_name=URD
+[ 3521.780869] In davinci_intf_init.c, default case, cmd=22017, module_name=URD
+[ 3521.780883] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=22017, module_name=URD
+[ 3521.780889] In davinci_intf_init.c, default case, cmd=22017, module_name=URD
+[ 3521.780903] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=22017, module_name=URD
+[ 3521.780921] In davinci_intf_init.c, default case, cmd=17693, module_name=URD
+[ 3521.780935] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=17693, module_name=URD
+[ 3521.780943] In davinci_intf_init.c, default case, cmd=19729, module_name=DEVMNG
+[ 3521.780959] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19729, module_name=DEVMNG
+[ 3521.780962] In davinci_intf_init.c, default case, cmd=19730, module_name=DEVMNG
+[ 3521.780976] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19730, module_name=DEVMNG
+[ 3521.780981] In davinci_intf_init.c, default case, cmd=22017, module_name=URD
+[ 3521.780995] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=22017, module_name=URD
+[ 3521.781024] In davinci_intf_init.c, default case, cmd=19715, module_name=DEVMNG
+[ 3521.781038] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19715, module_name=DEVMNG
+[ 3521.781041] In davinci_intf_init.c, default case, cmd=19732, module_name=DEVMNG
+[ 3521.781055] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19732, module_name=DEVMNG
+[ 3521.781077] In davinci_intf_init.c, default case, cmd=19875, module_name=DEVMNG
+[ 3521.781091] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19875, module_name=DEVMNG
+[ 3521.785688] In davinci_intf_init.c, default case, cmd=17693, module_name=URD
+[ 3521.785716] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=17693, module_name=URD
+[ 3521.785740] In davinci_intf_init.c, default case, cmd=19729, module_name=DEVMNG
+[ 3521.785763] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19729, module_name=DEVMNG
+[ 3521.785768] In davinci_intf_init.c, default case, cmd=19730, module_name=DEVMNG
+[ 3521.785783] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19730, module_name=DEVMNG
+[ 3521.785795] In davinci_intf_init.c, default case, cmd=17693, module_name=URD
+[ 3521.785812] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=17693, module_name=URD
+[ 3521.785825] In davinci_intf_init.c, default case, cmd=22017, module_name=URD
+[ 3521.785840] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=22017, module_name=URD
+[ 3521.785926] In davinci_intf_init.c, default case, cmd=17693, module_name=URD
+[ 3521.785942] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=17693, module_name=URD
+[ 3521.785952] In davinci_intf_init.c, default case, cmd=22017, module_name=URD
+[ 3521.785966] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=22017, module_name=URD
+[ 3521.785979] In davinci_intf_init.c, default case, cmd=19715, module_name=DEVMNG
+[ 3521.785996] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19715, module_name=DEVMNG
+[ 3521.786000] In davinci_intf_init.c, default case, cmd=19732, module_name=DEVMNG
+[ 3521.786014] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19732, module_name=DEVMNG
+[ 3521.786042] In davinci_intf_init.c, default case, cmd=19875, module_name=DEVMNG
+[ 3521.786056] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19875, module_name=DEVMNG
+[ 3521.837934] In davinci_intf_init.c, default case, cmd=17693, module_name=URD
+[ 3521.837962] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=17693, module_name=URD
+[ 3521.837984] In davinci_intf_init.c, default case, cmd=22017, module_name=URD
+[ 3521.838001] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=22017, module_name=URD
+[ 3521.838089] In davinci_intf_init.c, default case, cmd=17693, module_name=URD
+[ 3521.838106] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=17693, module_name=URD
+[ 3521.838116] In davinci_intf_init.c, default case, cmd=22017, module_name=URD
+[ 3521.838130] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=22017, module_name=URD
+[ 3521.838198] In davinci_intf_init.c, default case, cmd=17693, module_name=URD
+[ 3521.838213] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=17693, module_name=URD
+[ 3521.838222] In davinci_intf_init.c, default case, cmd=22017, module_name=URD
+[ 3521.838236] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=22017, module_name=URD
+[ 3521.838249] In davinci_intf_init.c, default case, cmd=17693, module_name=URD
+[ 3521.838262] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=17693, module_name=URD
+[ 3521.838268] In davinci_intf_init.c, default case, cmd=22017, module_name=URD
+[ 3521.838281] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=22017, module_name=URD
+[ 3521.838288] In davinci_intf_init.c, default case, cmd=17693, module_name=URD
+[ 3521.838302] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=17693, module_name=URD
+[ 3521.838307] In davinci_intf_init.c, default case, cmd=22017, module_name=URD
+[ 3521.838320] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=22017, module_name=URD
+[ 3521.838330] In davinci_intf_init.c, default case, cmd=19715, module_name=DEVMNG
+[ 3521.838353] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19715, module_name=DEVMNG
+[ 3521.838357] In davinci_intf_init.c, default case, cmd=19732, module_name=DEVMNG
+[ 3521.838374] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19732, module_name=DEVMNG
+[ 3521.838395] In davinci_intf_init.c, default case, cmd=19875, module_name=DEVMNG
+[ 3521.838410] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19875, module_name=DEVMNG
+[ 3521.838943] In davinci_intf_init.c, default case, cmd=19887, module_name=DEVMNG
+[ 3521.838967] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19887, module_name=DEVMNG
+[ 3521.838997] In davinci_intf_init.c, default case, cmd=19715, module_name=DEVMNG
+[ 3521.839014] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19715, module_name=DEVMNG
+[ 3521.839019] In davinci_intf_init.c, default case, cmd=19715, module_name=DEVMNG
+[ 3521.839033] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19715, module_name=DEVMNG
+[ 3521.839036] In davinci_intf_init.c, default case, cmd=19732, module_name=DEVMNG
+[ 3521.839050] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19732, module_name=DEVMNG
+[ 3521.839060] In davinci_intf_init.c, default case, cmd=22017, module_name=URD
+[ 3521.839078] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=22017, module_name=URD
+[ 3521.839092] In davinci_intf_init.c, default case, cmd=19715, module_name=DEVMNG
+[ 3521.839107] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19715, module_name=DEVMNG
+[ 3521.839110] In davinci_intf_init.c, default case, cmd=19875, module_name=DEVMNG
+[ 3521.839124] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19875, module_name=DEVMNG
+[ 3521.839131] In davinci_intf_init.c, default case, cmd=22017, module_name=URD
+[ 3521.839147] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=22017, module_name=URD
+[ 3521.839155] In davinci_intf_init.c, default case, cmd=22017, module_name=URD
+[ 3521.839170] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=22017, module_name=URD
+[ 3521.839179] In davinci_intf_init.c, default case, cmd=22017, module_name=URD
+[ 3521.839193] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=22017, module_name=URD
+[ 3521.839215] In davinci_intf_init.c, default case, cmd=19715, module_name=DEVMNG
+[ 3521.839229] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19715, module_name=DEVMNG
+[ 3521.839236] In davinci_intf_init.c, default case, cmd=17693, module_name=URD
+[ 3521.839250] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=17693, module_name=URD
+[ 3521.839258] In davinci_intf_init.c, default case, cmd=22017, module_name=URD
+[ 3521.839272] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: dms_ioctl+0x0/0x234 [asdrv_pbl], cmd=22017, module_name=URD
+[ 3521.839306] In davinci_intf_init.c, default case, cmd=19715, module_name=DEVMNG
+[ 3521.839321] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19715, module_name=DEVMNG
+[ 3521.839324] In davinci_intf_init.c, default case, cmd=19732, module_name=DEVMNG
+[ 3521.839338] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19732, module_name=DEVMNG
+[ 3521.839355] In davinci_intf_init.c, default case, cmd=19875, module_name=DEVMNG
+[ 3521.839369] In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: devdrv_manager_ioctl+0x0/0x200 [asdrv_dms], cmd=19875, module_name=DEVMNG
+[ 3522.141811] In davinci_intf_init.c, case DAVINCI_INTF_IOC_MAGIC, cmd=23041, module_name=uda
+[ 3522.141930] In davinci_intf_init.c, case DAVINCI_INTF_IOC_MAGIC, cmd=23041, module_name=URD
+[ 3522.143483] In davinci_intf_init.c, case DAVINCI_INTF_IOC_MAGIC, cmd=23041, module_name=DEVMNG
+[ 3522.143735] In davinci_intf_init.c, case DAVINCI_INTF_IOC_MAGIC, cmd=23041, module_name=URD

@@ -1433,6 +1433,9 @@ STATIC long drv_ascend_intf_ioctl(struct file *filep, unsigned int cmd, unsigned
     long ret;
     ASSERT_RET((filep != NULL), (-EFAULT));
 
+    // printk(KERN_EMERG "==========> [DEBUG] drv_ascend_intf_ioctl is CALLED! cmd: %u <==========\n", cmd);
+    // pr_info("==========> [DEBUG] drv_ascend_intf_ioctl is CALLED! cmd: %u <==========\n", cmd);
+
     file_private = filep->private_data;
     if (file_private == NULL) {
         log_intf_err("Invalid file_private_data.\n");
@@ -1441,8 +1444,10 @@ STATIC long drv_ascend_intf_ioctl(struct file *filep, unsigned int cmd, unsigned
 
     switch (_KA_IOC_TYPE(cmd)) {
         case DAVINCI_INTF_IOC_MAGIC: // 5A
+            // pr_info("In davinci_intf_init.c, case DAVINCI_INTF_IOC_MAGIC, cmd=%u, module_name=%s\n", cmd, file_private->module_name);
             return drv_ascend_intf_ioctl_local(filep, cmd, arg);
         default:
+            // pr_info("In davinci_intf_init.c, default case, cmd=%u, module_name=%s\n", cmd, file_private->module_name);
             if (file_private->fops.unlocked_ioctl == NULL) {
                 log_intf_err("File not init. (cmd=%u)\n", _KA_IOC_NR(cmd));
                 return -ENODEV;
@@ -1454,6 +1459,8 @@ STATIC long drv_ascend_intf_ioctl(struct file *filep, unsigned int cmd, unsigned
                     ret);
                 return -ENODEV;
             }
+            // pr_info("In davinci_intf_init.c, default case, file_private->fops.unlocked_ioctl is: %pS, cmd=%u, module_name=%s\n", 
+            //   file_private->fops.unlocked_ioctl, cmd, file_private->module_name);
             ret = file_private->fops.unlocked_ioctl(&file_private->priv_filep, cmd, arg);
             drv_davinci_dec_work_count(file_private);
             return ret;

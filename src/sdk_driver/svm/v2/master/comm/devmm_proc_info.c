@@ -925,6 +925,7 @@ STATIC int devmm_ioctl_alloc(struct devmm_svm_process *svm_process, struct devmm
     }
 
     chunk_cnt = devmm_get_pagecount_by_size(alloc_para->p, alloc_para->size, heap->chunk_page_size);
+    // pr_info("==========> [DEBUG] chunk_cnt=%llu, va=0x%llx, size=%lu, heap type=%u\n", chunk_cnt, alloc_para->p, alloc_para->size, heap->heap_type);
     if (chunk_cnt == 0) {
         devmm_drv_err("Count error. (va=0x%llx; size=%lu)\n", alloc_para->p, alloc_para->size);
         return -EINVAL;
@@ -2167,8 +2168,10 @@ STATIC int devmm_ioctl_update_heap(struct devmm_svm_process *svm_pro, struct dev
     }
     svm_use_da(svm_pro);
     if (cmd->op == DEVMM_HEAP_ENABLE) {
+        // pr_info("==========> [DEBUG] In devmm_ioctl_update_heap, enable heap. (heap_idx=%u; heap_size=0x%llx)\n", cmd->heap_idx, cmd->heap_size);
         ret = devmm_ioctl_enable_heap(svm_pro, arg->head.devid, cmd);
     } else {
+        // pr_info("==========> [DEBUG] In devmm_ioctl_update_heap, disable heap. (heap_idx=%u)\n", cmd->heap_idx);
         ret = devmm_ioctl_disable_heap(svm_pro, cmd);
     }
     svm_unuse_da(svm_pro);
@@ -2958,6 +2961,8 @@ static int _devmm_ioctl_dispatch(struct devmm_svm_process *svm_proc, u32 cmd_id,
         return ret;
     }
 
+    // pr_info("==========> [DEBUG] _devmm_ioctl_dispatch: cmd_id=0x%x, target handler is: %pS <==========\n", 
+    //         cmd_id, devmm_ioctl_handlers[cmd_id].ioctl_handler);
     ret = devmm_set_page_ref_before_ioctl(svm_proc, cmd_flag, &addr_info);
     if (ret != 0) {
         return ret;
@@ -2972,8 +2977,14 @@ int devmm_ioctl_dispatch(struct devmm_svm_process *svm_proc, u32 cmd_id, u32 cmd
     struct devmm_ioctl_arg *buffer)
 {
     if (devmm_should_ops_page_ref(svm_proc, cmd_flag)) {
+        // pr_info("==========> [DEBUG] In devmm_proc_info.c: devmm_ioctl_dispatch, cmd_id=%u, cmd_flag=0x%x, process_id=%d, hostpid=%d\n",
+        //     cmd_id, cmd_flag, svm_proc->process_id.devid, svm_proc->process_id.hostpid);
         return _devmm_ioctl_dispatch(svm_proc, cmd_id, cmd_flag, buffer);
     } else {
+        // pr_info("==========> [DEBUG] In devmm_proc_info.c: devmm_ioctl_dispatch, cmd_id=%u, cmd_flag=0x%x, process_id=%d, hostpid=%d, skip page ref ops\n",
+        //     cmd_id, cmd_flag, svm_proc->process_id.devid, svm_proc->process_id.hostpid);
+        // pr_info("==========> [DEBUG] devmm_ioctl_dispatch (Normal): cmd_id=0x%x, target handler is: %pS <==========\n", 
+        //         cmd_id, devmm_ioctl_handlers[cmd_id].ioctl_handler);
         return devmm_ioctl_handlers[cmd_id].ioctl_handler(svm_proc, buffer);
     }
 }
