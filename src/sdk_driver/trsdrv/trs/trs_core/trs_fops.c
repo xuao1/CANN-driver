@@ -262,6 +262,23 @@ static int ioctl_trs_sqcq_alloc(struct trs_proc_ctx *proc_ctx, unsigned int cmd,
     trs_core_inst_put(ts_inst);
 
     if (ret == 0) {
+        // pr_info("sqcq_alloc uio_info: sq_que_addr=0x%lx (depth=%u, sqe_size=%u, que_len=0x%lx), "
+        //     "HEAD=0x%lx, TAIL=0x%lx, DB=0x%lx, "
+        //     "HEAD_REG=0x%lx, TAIL_REG=0x%lx, SHR_INFO=0x%lx, "
+        //     "uio_flag=%u, soft_que_flag=%u, type=%d, sqId=%u\n",
+        //     uio_info.sq_que_addr,
+        //     para.sqeDepth, para.sqeSize,
+        //     (unsigned long)PAGE_ALIGN((unsigned long)para.sqeDepth * para.sqeSize),
+        //     uio_info.sq_ctrl_addr[TRS_UIO_HEAD],
+        //     uio_info.sq_ctrl_addr[TRS_UIO_TAIL],
+        //     uio_info.sq_ctrl_addr[TRS_UIO_DB],
+        //     uio_info.sq_ctrl_addr[TRS_UIO_HEAD_REG],
+        //     uio_info.sq_ctrl_addr[TRS_UIO_TAIL_REG],
+        //     uio_info.sq_ctrl_addr[TRS_UIO_SHR_INFO],
+        //     uio_info.uio_flag,
+        //     uio_info.soft_que_flag,
+        //     para.type, para.sqId);
+
         ret = ka_base_copy_to_user((struct halSqCqInputInfo __user *)arg, &para, sizeof(para));
         ret |= ka_base_copy_to_user((struct trs_uio_info __user *)user_uio_info, &uio_info, sizeof(uio_info));
         if (ret != 0) {
@@ -1212,6 +1229,8 @@ static long trs_ioctl(ka_file_t *file, unsigned int cmd, unsigned long arg)
     int cmd_nr = _IOC_NR(cmd);
     int ret;
 
+    /* pr_info("==========> [DEBUG] trs_ioctl is CALLED! cmd: %u, file: %p, arg: %lx <==========\n", cmd, file, arg); */
+
     if ((cmd_nr < 0) || (cmd_nr >= TRS_MAX_CMD) || (trs_ioctl_handles[cmd_nr] == NULL)) {
         trs_err("Unsupported command. (cmd_nr=%d)\n", cmd_nr);
         return -EOPNOTSUPP;
@@ -1249,6 +1268,7 @@ static long trs_ioctl(ka_file_t *file, unsigned int cmd, unsigned long arg)
         return ret;
     }
 
+    // pr_info("[DEBUG] trs_ioctl dispatch. cmd_nr=%d, handler=%ps\n", cmd_nr, trs_ioctl_handles[cmd_nr]);
     return (long)trs_ioctl_handles[cmd_nr](proc_ctx, cmd, arg);
 }
 

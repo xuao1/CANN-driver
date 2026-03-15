@@ -81,6 +81,10 @@ int trs_hw_sq_send_task(struct trs_sq_ctx *sq_ctx, enum trs_sq_send_sched_type s
     unsigned long cur_jiffies = ka_jiffies;
     u32 head, tail, num = 0;
 
+    // pr_info("trs_hw_sq_send_task: sq_ctx=%pK, sched_mode=%d\n", sq_ctx, sched_mode);
+    // pr_info("trs_hw_sq_send_task: status=%d, head.kva=%pK, tail.kva=%pK, sq_depth=%u, sqe_size=%u, chan_id=%d\n",
+    //     sq_ctx->status, sq_ctx->head.kva, sq_ctx->tail.kva, sq_ctx->sq_depth, sq_ctx->sqe_size, sq_ctx->chan_id);
+
     if ((sq_ctx->status == 0) || (sq_ctx->head.kva == NULL)) {
         return 0;
     }
@@ -105,6 +109,9 @@ int trs_hw_sq_send_task(struct trs_sq_ctx *sq_ctx, enum trs_sq_send_sched_type s
 
         para.sqe = (u8 *)sq_ctx->que_mem.kva + head * sq_ctx->sqe_size;
         para.sqe_num = 1; /* make sure stars run and task submit at the same time */
+        // pr_info("sq_send: devid=%u tsid=%u sqId=%u head=%u tail=%u sqe=[%*ph]\n",
+        //     inst->devid, inst->tsid, sq_ctx->sqid, head, tail,
+        //     (int)min_t(u32, sq_ctx->sqe_size, 64), para.sqe);
         ret = hal_kernel_trs_chan_send(inst, sq_ctx->chan_id, &para);
         if (ret != 0) {
             sq_ctx->send_fail++;
