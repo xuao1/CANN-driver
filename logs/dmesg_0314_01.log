@@ -1,0 +1,55 @@
+[ 7813.126753] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 3223345164, file: 0000000023c44381, arg: ffffcb81d268 <==========
+[ 7813.126770] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 3224131589, file: 0000000023c44381, arg: ffffcb81d168 <==========
+[ 7813.126911] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 3224131589, file: 0000000023c44381, arg: ffffcb81d168 <==========
+[ 7813.127481] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 3224131589, file: 0000000023c44381, arg: ffffcb81d168 <==========
+[ 7813.127830] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 3224131589, file: 0000000023c44381, arg: ffffcb81d168 <==========
+[ 7813.128161] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 3224131589, file: 0000000023c44381, arg: ffffcb81d168 <==========
+[ 7813.133294] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 3224131589, file: 0000000023c44381, arg: ffffcb81d168 <==========
+[ 7813.133306] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 3224131589, file: 0000000023c44381, arg: ffffcb81d168 <==========
+[ 7813.133311] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 3224131589, file: 0000000023c44381, arg: ffffcb81d168 <==========
+[ 7813.133315] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 3224131589, file: 0000000023c44381, arg: ffffcb81d168 <==========
+[ 7813.135834] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 3221510155, file: 0000000023c44381, arg: ffffcb81d3a0 <==========
+[ 7813.154595] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 3224131584, file: 0000000023c44381, arg: ffffcb81d348 <==========
+[ 7813.154782] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 3227539471, file: 0000000023c44381, arg: ffffcb81d2c8 <==========
+[ 7813.155375] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 3227539471, file: 0000000023c44381, arg: ffffcb81d358 <==========
+[ 7813.155450] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 1076647946, file: 0000000023c44381, arg: ffffcb81d2e8 <==========
+[ 7813.155459] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 3224655890, file: 0000000023c44381, arg: ffffcb81d500 <==========
+[ 7813.155538] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 3224131584, file: 0000000023c44381, arg: ffffcb81d2e8 <==========
+[ 7813.155547] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 3227539471, file: 0000000023c44381, arg: ffffcb81d268 <==========
+[ 7813.160458] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 3225966612, file: 0000000023c44381, arg: ffffcb81cfb0 <==========
+[ 7813.160754] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 3224655890, file: 0000000023c44381, arg: ffffcb81cce0 <==========
+[ 7813.160775] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 1077172241, file: 0000000023c44381, arg: ffffcb81cce0 <==========
+[ 7813.160785] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 1077172241, file: 0000000023c44381, arg: ffffcb81cce0 <==========
+[ 7813.160790] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 3224655890, file: 0000000023c44381, arg: ffffcb81cfc0 <==========
+[ 7813.162474] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 3225966612, file: 0000000023c44381, arg: ffffcb81cb90 <==========
+[ 7813.162540] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 3225966612, file: 0000000023c44381, arg: ffffcb81cc00 <==========
+[ 7813.164148] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 3224655890, file: 0000000023c44381, arg: ffffcb81cc10 <==========
+[ 7813.164227] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 3225966612, file: 0000000023c44381, arg: ffffcb81cfb0 <==========
+[ 7813.164474] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 3224655890, file: 0000000023c44381, arg: ffffcb81cfc0 <==========
+[ 7813.165717] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 3239860237, file: 0000000023c44381, arg: ffffcb81d348 <==========
+[ 7813.166454] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 3225966612, file: 0000000023c44381, arg: ffffcb81ce80 <==========
+[ 7813.166499] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 3225966612, file: 0000000023c44381, arg: ffffcb81cef0 <==========
+[ 7813.166953] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 3224655890, file: 0000000023c44381, arg: ffffcb81cf00 <==========
+[ 7813.174620] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 3224131584, file: 0000000023c44381, arg: ffffcb81d538 <==========
+[ 7813.174690] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 3227539471, file: 0000000023c44381, arg: ffffcb81d4b8 <==========
+[ 7813.175041] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 3227539471, file: 0000000023c44381, arg: ffffcb81d548 <==========
+[ 7813.175092] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 1076647946, file: 0000000023c44381, arg: ffffcb81d4d8 <==========
+[ 7813.175099] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 3224655890, file: 0000000023c44381, arg: ffffcb81d6f0 <==========
+[ 7873.200728] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 1076647946, file: 0000000023c44381, arg: ffffcb81d3f8 <==========
+[ 7873.200747] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 1077172240, file: 0000000023c44381, arg: ffffcb81d5e0 <==========
+[ 7873.200781] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 1077172240, file: 0000000023c44381, arg: ffffcb81d5f0 <==========
+[ 7873.201409] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 1076647937, file: 0000000023c44381, arg: ffffcb81d528 <==========
+[ 7873.201681] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 3225966612, file: 0000000023c44381, arg: ffffcb81cd20 <==========
+[ 7873.201738] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 3225966612, file: 0000000023c44381, arg: ffffcb81cd90 <==========
+[ 7873.201889] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 3224655890, file: 0000000023c44381, arg: ffffcb81cda0 <==========
+[ 7873.201904] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 3225966612, file: 0000000023c44381, arg: ffffcb81cfe0 <==========
+[ 7873.201932] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 1076647946, file: 0000000023c44381, arg: ffffcb81d368 <==========
+[ 7873.201938] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 1077172240, file: 0000000023c44381, arg: ffffcb81d550 <==========
+[ 7873.201958] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 1077172240, file: 0000000023c44381, arg: ffffcb81d560 <==========
+[ 7873.202339] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 1076647937, file: 0000000023c44381, arg: ffffcb81d498 <==========
+[ 7873.204192] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 1077172240, file: 0000000023c44381, arg: ffffcb81d550 <==========
+[ 7873.204427] ==========> [DEBUG] trs_ioctl is CALLED! cmd: 1076647937, file: 0000000023c44381, arg: ffffcb81d488 <==========
+[ 8134.272983] [ascend] [ERROR] [uda] [uda_devid_to_phy_devid 654] <npu-smi:89244:89244:3> Trans failed. (devid=0)
+[ 8134.272996] [ascend] [ERROR] [uda] [uda_devid_to_phy_devid 654] <npu-smi:89244:89244:3> Trans failed. (devid=0)
+[ 8134.298088] [ascend] [ERROR] [uda] [uda_devid_to_phy_devid 654] <npu-smi:89264:89264:3> Trans failed. (devid=0)
+[ 8134.298102] [ascend] [ERROR] [uda] [uda_devid_to_phy_devid 654] <npu-smi:89264:89264:3> Trans failed. (devid=0)

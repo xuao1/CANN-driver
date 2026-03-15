@@ -1063,6 +1063,19 @@ STATIC int devdrv_manager_get_devinfo(unsigned long arg)
         goto FREE_DEV_INFO_EXIT;
     }
 
+    // pr_info("In devdrv_manager_get_devinfo, all hccl_devinfo is:\n dev_id(%u), ctrl_cpu_ip(0x%x), ctrl_cpu_id(%u), ctrl_cpu_core_num(%u), ctrl_cpu_occupy_bitmap(0x%x), "
+    //         "ctrl_cpu_endian_little(%u), ts_cpu_core_num(%u), ai_cpu_core_num(%u), ai_core_num(%u), ai_cpu_bitmap(0x%x), "
+    //         "ai_core_id(%u), ai_cpu_core_id(%u), hardware_version(%u), ts_num(%u), aicore_freq(%llu), vector_core_num(%u), "
+    //         "vector_core_freq(%llu), ffts_type(%u), chip_id(%u), die_id(%u), addr_mode(%u), host_device_connect_type(%u), "
+    //         "mainboard_id(%u), product_type(%u)\n",
+    //         hccl_devinfo->dev_id, hccl_devinfo->ctrl_cpu_ip, hccl_devinfo->ctrl_cpu_id, hccl_devinfo->ctrl_cpu_core_num,
+    //         hccl_devinfo->ctrl_cpu_occupy_bitmap, hccl_devinfo->ctrl_cpu_endian_little, hccl_devinfo->ts_cpu_core_num,
+    //         hccl_devinfo->ai_cpu_core_num, hccl_devinfo->ai_core_num, hccl_devinfo->ai_cpu_bitmap, hccl_devinfo->ai_core_id,
+    //         hccl_devinfo->ai_cpu_core_id, hccl_devinfo->hardware_version, hccl_devinfo->ts_num, hccl_devinfo->aicore_freq,
+    //         hccl_devinfo->vector_core_num, hccl_devinfo->vector_core_freq, hccl_devinfo->ffts_type, hccl_devinfo->chip_id,
+    //         hccl_devinfo->die_id, hccl_devinfo->addr_mode, hccl_devinfo->host_device_connect_type, hccl_devinfo->mainboard_id,
+    //         hccl_devinfo->product_type);
+
     dev_id = hccl_devinfo->dev_id;
     if (dev_id >= ASCEND_DEV_MAX_NUM) {
         devdrv_drv_err("invalid dev_id(%u)\n", hccl_devinfo->dev_id);
@@ -1165,6 +1178,19 @@ STATIC int devdrv_manager_get_devinfo(unsigned long arg)
         goto HOT_RESET_CNT_EXIT;
     }
 #endif
+
+    // pr_info("In devdrv_manager_get_devinfo, all hccl_devinfo is:\n dev_id(%u), ctrl_cpu_ip(0x%x), ctrl_cpu_id(%u), ctrl_cpu_core_num(%u), ctrl_cpu_occupy_bitmap(0x%x), "
+    //         "ctrl_cpu_endian_little(%u), ts_cpu_core_num(%u), ai_cpu_core_num(%u), ai_core_num(%u), ai_cpu_bitmap(0x%x), "
+    //         "ai_core_id(%u), ai_cpu_core_id(%u), hardware_version(%u), ts_num(%u), aicore_freq(%llu), vector_core_num(%u), "
+    //         "vector_core_freq(%llu), ffts_type(%u), chip_id(%u), die_id(%u), addr_mode(%u), host_device_connect_type(%u), "
+    //         "mainboard_id(%u), product_type(%u)\n",
+    //         hccl_devinfo->dev_id, hccl_devinfo->ctrl_cpu_ip, hccl_devinfo->ctrl_cpu_id, hccl_devinfo->ctrl_cpu_core_num,
+    //         hccl_devinfo->ctrl_cpu_occupy_bitmap, hccl_devinfo->ctrl_cpu_endian_little, hccl_devinfo->ts_cpu_core_num,
+    //         hccl_devinfo->ai_cpu_core_num, hccl_devinfo->ai_core_num, hccl_devinfo->ai_cpu_bitmap, hccl_devinfo->ai_core_id,
+    //         hccl_devinfo->ai_cpu_core_id, hccl_devinfo->hardware_version, hccl_devinfo->ts_num, hccl_devinfo->aicore_freq,
+    //         hccl_devinfo->vector_core_num, hccl_devinfo->vector_core_freq, hccl_devinfo->ffts_type, hccl_devinfo->chip_id,
+    //         hccl_devinfo->die_id, hccl_devinfo->addr_mode, hccl_devinfo->host_device_connect_type, hccl_devinfo->mainboard_id,
+    //         hccl_devinfo->product_type);
 
     if (copy_to_user_safe((void *)(uintptr_t)arg, hccl_devinfo, sizeof(struct devdrv_manager_hccl_devinfo))) {
         devdrv_drv_err("copy to user failed. dev_id(%u)\n", phys_id);
@@ -1440,20 +1466,25 @@ STATIC int devdrv_manager_devinfo_ioctl(struct file *filep, unsigned int cmd, un
 
     switch (cmd) {
         case DEVDRV_MANAGER_GET_CORE_UTILIZATION:
+            // pr_info("==========> [DEBUG] In devdrv_manager_devinfo_ioctl, cmd is DEVDRV_MANAGER_GET_CORE_UTILIZATION.\n");
             ret = devdrv_manager_get_core_utilization(arg);
             break;
         case DEVDRV_MANAGER_GET_CONTAINER_DEVIDS:
+            // pr_info("==========> [DEBUG] In devdrv_manager_devinfo_ioctl, cmd is DEVDRV_MANAGER_GET_CONTAINER_DEVIDS.\n");
             ret = devdrv_manager_get_container_devids(arg);
             break;
         case DEVDRV_MANAGER_GET_DEVINFO:
+            // pr_info("==========> [DEBUG] In devdrv_manager_devinfo_ioctl, cmd is DEVDRV_MANAGER_GET_DEVINFO.\n");
             ret = devdrv_manager_get_devinfo(arg);
             break;
 #ifdef CFG_FEATURE_DEVMNG_IOCTL
         case DEVDRV_MANAGER_GET_H2D_DEVINFO:
+            // pr_info("==========> [DEBUG] In devdrv_manager_devinfo_ioctl, cmd is DEVDRV_MANAGER_GET_H2D_DEVINFO.\n");
             ret = devdrv_manager_get_h2d_devinfo(arg);
             break;
 #endif
         case DEVDRV_MANAGER_GET_PCIE_ID_INFO:
+            // pr_info("==========> [DEBUG] In devdrv_manager_devinfo_ioctl, cmd is DEVDRV_MANAGER_GET_PCIE_ID_INFO.\n");
             ret = devdrv_get_pcie_id(arg);
             break;
         default:
@@ -4199,6 +4230,8 @@ STATIC long devdrv_manager_ioctl(struct file *filep, unsigned int cmd, unsigned 
         return -EINVAL;
     }
 
+    // pr_info("==========> [DEBUG] In devdrv_manager_ioctl, cmd = %u, cmd_id = 0x%x, arg = 0x%lx, devdrv_manager_ioctl_handlers[_KA_IOC_NR(cmd)] = %pS\n",
+    // cmd, _KA_IOC_NR(cmd), arg, devdrv_manager_ioctl_handlers[_KA_IOC_NR(cmd)]);
     return devdrv_manager_ioctl_handlers[_KA_IOC_NR(cmd)](filep, cmd, arg);
 }
 

@@ -926,6 +926,10 @@ STATIC int devmm_ioctl_alloc(struct devmm_svm_process *svm_process, struct devmm
 
     chunk_cnt = devmm_get_pagecount_by_size(alloc_para->p, alloc_para->size, heap->chunk_page_size);
     // pr_info("==========> [DEBUG] chunk_cnt=%llu, va=0x%llx, size=%lu, heap type=%u\n", chunk_cnt, alloc_para->p, alloc_para->size, heap->heap_type);
+    // if (alloc_para->size > 1024*1024*1024) {
+    //     // devmm_drv_err("Size is too large. (va=0x%llx; size=%lu)\n", alloc_para->p, alloc_para->size);
+    //     return -EINVAL;
+    // }
     if (chunk_cnt == 0) {
         devmm_drv_err("Count error. (va=0x%llx; size=%lu)\n", alloc_para->p, alloc_para->size);
         return -EINVAL;
